@@ -1,0 +1,105 @@
+header {
+    background-image: url(img/header-bg.png);
+}
+.container{
+    background: #f3f3f3;
+}
+#logop{
+    width: 200px;
+    height: 100px;
+}
+.cart{
+    background-image: url("img/cart-bg.png");
+    width: 70px;
+    height: 82px;
+    font-size: 2.5em;
+    color: white;
+}
+#buscar{
+    margin-top: 4%;
+}
+#principal a{
+    color: black !important;
+}
+#pro{
+    margin: auto;
+    text-align: center;
+    background: #0b5c22;
+    color: white;
+}   
+nav a:hover{
+	background-color: #f8f8f8;
+	color: #5aae32 !important ;
+    padding: 1% 1% 2% 1%;
+	font-weight: bold;
+}
+#menu{
+    text-align: center;
+    margin: auto;
+}
+#listas{
+    background: #0b5c22;
+    color: white;
+}
+.imagenes{
+    display: flex;
+    flex-flow: row wrap;
+}
+.productos{
+    flex: 15%;
+    border: 2px solid #0b5c22;
+    border-radius: 14px 14px;
+    margin-left: 12px;
+    margin-top: 12px;
+    box-shadow: 1px 7px 13px 1px #023708;
+}
+#img01:hover{
+    transform: rotate(10deg);
+}
+
+.des{
+    margin-top: 2%;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.productos img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    height: 250px;
+}
+#boton{
+    background-color: #023708; 
+}
+#menufooter{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+#imgultimo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 300px;
+    height: 150px;
+}
+#letra{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+}
+.CopyRight{
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+.loader{
+    width: 100%;
+    text-align: center;
+}

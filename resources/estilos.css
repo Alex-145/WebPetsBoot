@@ -1,0 +1,11 @@
+.cart{
+    background-image: url("img/cart-bg.png");
+    width: 70px;
+    height: 82px;
+    font-size: 2.5em;
+    color: white
+}
+
+#numero{
+    padding-top:10px; 
+}
